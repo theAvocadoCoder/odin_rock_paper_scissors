@@ -26,6 +26,17 @@ body > div {
 
 }
 
+.game-over-screen {
+  background-color: #00071380;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-show {
+  display: none;
+}
+
 #game-div {
   z-index: 1;
   width: 1000px;
@@ -39,18 +50,8 @@ body > div {
   justify-content: space-between;
 }
 
-.game-over-screen {
-  background-color: #00071380;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.no-show {
-  display: none;
-}
-
-#game-div h1 {
+#game-div h1,
+#game-div h2 {
   color: aliceblue;
 }
 

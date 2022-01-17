@@ -116,10 +116,10 @@ function reset() {
   gameSessionCounter = 1;
 
   gameMessage.innerText = '';
-  playerScoreEl.innerText = playerScore;
-  computerScoreEl.innerText = computerScore;
-  tiesEl.innerText = ties;
-  gameSessionsEl.innerText = gameSessionCounter;
+  playerScoreEl.innerText = '';
+  computerScoreEl.innerText = '';
+  tiesEl.innerText = '';
+  gameSessionsEl.innerText = '';
   endGameMessage.innerText = '';
 
   rock.disabled = false;
