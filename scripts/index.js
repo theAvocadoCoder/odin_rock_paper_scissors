@@ -159,7 +159,7 @@ function game(e) {
 
   console.log(sessionResults.message, `| You: ${playerScore} | Computer: ${computerScore} | Ties: ${ties} | Sessions: ${gameSessionCounter}`);
 
-  if (gameSessionCounter === 5) {
+  if (playerScore === 5 || computerScore === 5) {
     gameOver.classList.toggle("no-show");
     gameOver.classList.toggle("game-over-screen");
     disableBtns();
