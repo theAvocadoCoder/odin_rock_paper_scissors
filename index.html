@@ -5,12 +5,59 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
+  <script src="./scripts/index.js" defer></script>
   <title>Rock, Paper, Scissors</title>
 </head>
 
 <body>
-
+  <div id="game-over" class="no-show">
+    <button id="reset-btn" class="btn">Restart</button>
+  </div>
+  <div>
+    <div id="game-div">
+      <h1>Rock Paper Scissors</h1>
+      <div class="info-div">
+        <h2 id="game-message"></h2>
+        <div class="results-div">
+          <div>
+            <h3>You:</h3>
+            <span id="player-score"></span>
+          </div>
+          <div>
+            <h3>Computer:</h3>
+            <span id="computer-score"></span>
+          </div>
+          <div>
+            <h3>Ties:</h3>
+            <span id="ties"></span>
+          </div>
+          <div>
+            <h3>Sessions:</h3>
+            <span id="game-sessions"></span>
+          </div>
+        </div>
+        <h1 id="end-game-message"></h1>
+      </div>
+      <div class="buttons-div">
+        <div class="button-div">
+          <button class="btn" id="rock">
+            Rock
+          </button>
+        </div>
+        <div class="button-div">
+          <button class="btn" id="paper">
+            Paper
+          </button>
+        </div>
+        <div class="button-div">
+          <button class="btn" id="scissors">
+            Scissors
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
-<script src="./scripts/index.js"></script>
 
 </html>
